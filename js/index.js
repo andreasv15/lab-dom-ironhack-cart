@@ -70,6 +70,7 @@ function removeProduct(event) {
 
 // ITERATION 5
 function createProduct() {
+
   //... your code goes here
   //console.log("funcionando!");
   const crearProductoDOM = document.querySelector(".create-product");
@@ -114,6 +115,7 @@ function createProduct() {
   crearProductoTdAction.innerHTML = `<button class="btn btn-remove">Remove</button>`;
 
 
+
   //añadimos los elementos a la tabla, primero al tr de cada producto 
   /*
   creaProductoTr.append(crearProductoTdName);
@@ -122,7 +124,7 @@ function createProduct() {
   creaProductoTr.append(crearProductoTdSubtotal);
   creaProductoTr.append(crearProductoTdAction);
   */
-
+  
   creaProductoTr.append(crearProductoTdName,crearProductoTdPrice,crearProductoTdQuantity,crearProductoTdSubtotal,crearProductoTdAction);
 
   // y el tr lo agregamos al tbody
